@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         action_online_class.setOnClickListener(View.OnClickListener {
             val intent = Intent(this,BranchActivity::class.java)
+            startActivity(intent)
+            finish()
         })
     }
 }

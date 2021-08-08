@@ -7,7 +7,7 @@
     tools:context=".OnlineClassActivity"
     android:orientation="horizontal"
     android:layout_margin="15dp"
-    android:padding="15dp">
+    android:padding="5dp">
 
     <LinearLayout
         android:layout_width="250dp"
@@ -15,7 +15,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/class_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="class name" />
@@ -24,7 +24,7 @@
             android:id="@+id/time_slots"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="class time"/>
+            android:text="10:00 - 11:00" />
 
     </LinearLayout>
     <Button

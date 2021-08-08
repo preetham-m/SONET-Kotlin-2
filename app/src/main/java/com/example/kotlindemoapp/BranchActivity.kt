@@ -14,6 +14,8 @@ class BranchActivity : AppCompatActivity() {
 
         action_cse.setOnClickListener(View.OnClickListener {
             val intent = Intent(this,OnlineClassActivity::class.java)
+            startActivity(intent)
+            finish()
         })
     }
 }
