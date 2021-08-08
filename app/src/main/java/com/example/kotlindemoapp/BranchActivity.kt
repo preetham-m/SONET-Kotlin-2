@@ -6,14 +6,14 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class BranchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val action_online_class = findViewById<TextView>(R.id.action_online_class)
+        setContentView(R.layout.activity_branch)
+        val action_cse = findViewById<TextView>(R.id.action_cse)
 
-        action_online_class.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this,BranchActivity::class.java)
+        action_cse.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this,OnlineClassActivity::class.java)
         })
     }
 }
