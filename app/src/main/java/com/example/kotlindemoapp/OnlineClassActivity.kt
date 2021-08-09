@@ -28,7 +28,7 @@ class OnlineClassActivity : AppCompatActivity() {
 
         list_items.adapter = MyAdapter(this,R.layout.list_element, list)
 
-        var buttonid: Button = findViewById(R.id.clikable)
+        var buttonid: Button = findViewById(R.id.clikable) // sir, the error is because of this line.
         buttonid.setOnClickListener(View.OnClickListener {
             if (buttonid.tag == 0) {
                 var link = Uri.parse("https://meet.google.com")
