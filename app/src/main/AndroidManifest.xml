@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinDemoApp">
-        <activity android:name=".OnlineClassActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".OnlineClassActivity" />
         <activity android:name=".BranchActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
